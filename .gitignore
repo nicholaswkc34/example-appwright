@@ -1,0 +1,17 @@
+# Playwright
+node_modules/
+wikipedia.app
+optitrack.apk
+wikipedia_ios.zip
+wikipedia.apk
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+/generated/prisma
+
+/resultados-exportados/
+
+.DS_Store
+dist/

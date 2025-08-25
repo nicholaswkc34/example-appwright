@@ -1,0 +1,21 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "extract:app": "node tools/extract",
+    "test:android": "./script.sh android",
+    "test:ios": "./script.sh ios"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "appium": "^2.6.0",
+    "appium-xcuitest-driver": "^7.27.0",
+    "appwright": "^0.1.1"
+  }
+}
